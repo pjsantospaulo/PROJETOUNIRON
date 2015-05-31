@@ -1,0 +1,6 @@
+c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Apresentacao\bin\Apresentacao.dll.config
+c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Apresentacao\bin\Apresentacao.dll
+c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Apresentacao\bin\Apresentacao.pdb
+c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Apresentacao\obj\Debug\Apresentacao.dll
+c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Apresentacao\obj\Debug\Apresentacao.pdb

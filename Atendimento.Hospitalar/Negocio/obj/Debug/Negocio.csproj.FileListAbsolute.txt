@@ -1,0 +1,5 @@
+c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Negocio\bin\Debug\Negocio.dll
+c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Negocio\bin\Debug\Negocio.pdb
+c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.dll
+c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.pdb

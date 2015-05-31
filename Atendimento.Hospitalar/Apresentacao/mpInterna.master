@@ -1,0 +1,8 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/mpExterna.Master" AutoEventWireup="true" CodeBehind="mpInterna.master.cs" Inherits="Apresentacao.mpInterna" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="mpExterna" runat="server">
+    <asp:ContentPlaceHolder ID="mpInterna" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>

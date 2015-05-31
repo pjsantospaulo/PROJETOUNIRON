@@ -1,0 +1,10 @@
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Negocio\bin\Debug\Negocio.dll
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Negocio\bin\Debug\Negocio.pdb
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Negocio\obj\Debug\Negocio.dll
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Negocio\obj\Debug\Negocio.pdb
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\Negocio\bin\Debug\Negocio.dll
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\Negocio\bin\Debug\Negocio.pdb
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\Negocio\obj\Debug\Negocio.dll
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\Negocio\obj\Debug\Negocio.pdb

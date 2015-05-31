@@ -1,0 +1,16 @@
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\cl.teste\obj\Debug\cl.teste.csprojResolveAssemblyReference.cache
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\cl.teste\bin\Debug\cl.teste.exe.config
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\cl.teste\bin\Debug\cl.teste.exe
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\cl.teste\bin\Debug\cl.teste.pdb
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\cl.teste\bin\Debug\Negocio.dll
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\cl.teste\bin\Debug\Negocio.pdb
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\cl.teste\obj\Debug\cl.teste.exe
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\cl.teste\obj\Debug\cl.teste.pdb
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\cl.teste\bin\Debug\cl.teste.exe.config
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\cl.teste\obj\Debug\cl.teste.exe
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\cl.teste\obj\Debug\cl.teste.pdb
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\cl.teste\bin\Debug\cl.teste.exe
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\cl.teste\bin\Debug\cl.teste.pdb
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\cl.teste\bin\Debug\Negocio.dll
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\cl.teste\bin\Debug\Negocio.pdb
+D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\cl.teste\obj\Debug\cl.teste.csprojResolveAssemblyReference.cache

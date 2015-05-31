@@ -1,0 +1,4 @@
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Negocio\bin\Release\Negocio.dll
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Negocio\bin\Release\Negocio.pdb
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Negocio\obj\Release\Negocio.dll
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Negocio\obj\Release\Negocio.pdb

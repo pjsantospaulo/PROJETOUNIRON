@@ -1,0 +1,8 @@
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Apresentacao.dll.config
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Apresentacao.dll
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Apresentacao.pdb
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Negocio.dll
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Negocio.pdb
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Apresentacao\obj\Release\Apresentacao.csprojResolveAssemblyReference.cache
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Apresentacao\obj\Release\Apresentacao.dll
+D:\Uniron\POOW\SolucaoMontadora\SolucaoMontadora\Apresentacao\obj\Release\Apresentacao.pdb

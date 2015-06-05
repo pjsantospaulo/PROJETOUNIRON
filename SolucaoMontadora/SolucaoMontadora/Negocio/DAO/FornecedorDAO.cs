@@ -32,7 +32,7 @@ namespace Negocio.DAO
         {
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "UPDATE Cliente set nome=@nome, cpf=@cpf, endereco=@endereco where fornecedorID = @fornecedorID ";
+            cmd.CommandText = "UPDATE Fornecedores set nome=@nome, cpf=@cpf, endereco=@endereco where fornecedorID = @fornecedorID ";
             cmd.Parameters.AddWithValue("@nome", fornecedor.Nome);
             cmd.Parameters.AddWithValue("@cpf", fornecedor.Cpf);
             cmd.Parameters.AddWithValue("@endereco", fornecedor.Endereco);

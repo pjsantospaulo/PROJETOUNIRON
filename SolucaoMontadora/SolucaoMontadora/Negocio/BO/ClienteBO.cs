@@ -49,11 +49,11 @@ namespace Negocio.BO
         {
             return cDAO.BuscarPorCpf(objCliente.Cpf);
         }
-        public IList<Cliente> BuscarPorNome(Cliente objCliente)
+        public IList<Cliente> BuscarPorNome(string nome)
         {
             IList<Cliente> listaDeCliente = new List<Cliente>();
 
-            return cDAO.BuscarPorNome(objCliente.Nome);
+            return cDAO.BuscarPorNome(nome);
         }
 
        

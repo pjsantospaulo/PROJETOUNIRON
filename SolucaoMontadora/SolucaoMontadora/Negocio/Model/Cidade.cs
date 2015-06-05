@@ -14,7 +14,7 @@ namespace Negocio.Model
         private string nome;
         private Estado estado;
 
-        internal Estado Estado
+        public Estado Estado
         {
             get { return estado; }
             set { estado = value; }

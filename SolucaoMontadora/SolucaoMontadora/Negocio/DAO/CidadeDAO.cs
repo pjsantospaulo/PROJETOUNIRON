@@ -46,7 +46,7 @@ namespace Negocio.DAO
         {
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "SELECT * FROM Cidades WHERE estado=@id";
+            cmd.CommandText = "SELECT * FROM Cidades WHERE cidadeId=@id";
             cmd.Parameters.AddWithValue("@id", id);
             SqlDataReader dr = Conexao.Buscar(cmd);
             Cidade objCidade = new Cidade();
@@ -56,6 +56,7 @@ namespace Negocio.DAO
                 dr.Read();
                 objCidade.CidadeId = (int)dr["cidadeId"];
                 objCidade.Nome = (string)dr["nome"];
+                objCidade.Estado = (Estado)Enum.Parse(typeof(Estado), dr["estado"].ToString()); 
             }
             else
             {

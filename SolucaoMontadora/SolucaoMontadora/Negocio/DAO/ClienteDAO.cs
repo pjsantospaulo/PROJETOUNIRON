@@ -18,7 +18,7 @@ namespace Negocio.DAO
         {
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "INSERT INTO Clientes(nome, cpf, endereco, dtNascimento, sexo, rg, orgaoExpedidor numero, cidadeId) values(@nome, @cpf, @endereco, @dtNascimento, @sexo, @rg, @orgaoExpedidor,  @numero, @cidadeId)"; 
+            cmd.CommandText = "INSERT INTO Clientes(nome, cpf, endereco, dtNascimento, sexo, rg, orgaoExpedidor, numero, cidadeId) values(@nome, @cpf, @endereco, @dtNascimento, @sexo, @rg, @orgaoExpedidor,  @numero, @cidadeId)"; 
             
             
                 ;
@@ -28,16 +28,18 @@ namespace Negocio.DAO
             cmd.Parameters.AddWithValue("@dtNascimento", cliente.DataNascimento);
             cmd.Parameters.AddWithValue("@sexo", cliente._Sexo);
             cmd.Parameters.AddWithValue("@rg", cliente.Rg);
-            cmd.Parameters.AddWithValue("@cidadeId", cliente.Cidade.CidadeId);
+            cmd.Parameters.AddWithValue("@orgaoExpedidor", cliente.OrgaoExpedidor);
             cmd.Parameters.AddWithValue("@numero", cliente.Numero);
-           
+            cmd.Parameters.AddWithValue("@cidadeId", cliente.Cidade.CidadeId);
+            
             Conexao.CRUD(cmd);
         }
         public void Alterar(Cliente cliente)
         {
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "UPDATE Clientes set nome=@nome, cpf=@cpf, endereco=@endereco, dtNascimento=@dtNascimento, sexo=@sexo, rg=@rg, cidadeId=@cidadeId, numero=@numero, uf=@uf WHERE clienteID  = @clienteID";
+            cmd.CommandText = "UPDATE Clientes set nome=@nome, cpf=@cpf, endereco=@endereco, dtNascimento=@dtNascimento, sexo=@sexo, rg=@rg, cidadeId=@cidadeId, numero=@numero WHERE clienteID  = @clienteID";
+            cmd.Parameters.AddWithValue("@clienteID", cliente.Id);
             cmd.Parameters.AddWithValue("@nome", cliente.Nome);
             cmd.Parameters.AddWithValue("@cpf", cliente.Cpf);
             cmd.Parameters.AddWithValue("@endereco", cliente.Endereco);
@@ -45,7 +47,8 @@ namespace Negocio.DAO
             cmd.Parameters.AddWithValue("@sexo", cliente._Sexo);
             cmd.Parameters.AddWithValue("@rg", cliente.Rg);
             cmd.Parameters.AddWithValue("@cidadeId", cliente.Cidade.CidadeId);
-            //cmd.Parameters.AddWithValue("@uf", cliente.Uf);
+            cmd.Parameters.AddWithValue("@numero", cliente.Numero);
+           
             Conexao.CRUD(cmd);
         }
         public void Excluir(int clienteID)
@@ -61,22 +64,25 @@ namespace Negocio.DAO
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "SELECT * FROM Clientes WHERE clienteID = @id";
+            cmd.Parameters.AddWithValue("@id", id);
 
             SqlDataReader dr = Conexao.Buscar(cmd);
             Cliente c = new Cliente();
+            CidadeDAO cidade = new CidadeDAO();
             if (dr.HasRows)
             {
+                dr.Read();
                 c.Id = (int)dr["clienteID"];
                 c.Nome = (string)dr["nome"];
                 c.Cpf = (string)dr["cpf"];
                 c.Endereco = (string)dr["endereco"];
                 c.DataNascimento = Convert.ToDateTime(dr["dtNascimento"]);
-                c._Sexo = (Sexo)dr["sexo"];
+                c._Sexo = (Sexo)Enum.Parse(typeof(Sexo), Convert.ToString(dr["sexo"]));
                 c.Rg = (string)dr["rg"];
-                c.Cidade = (Cidade)dr["cidade"];
+                c.Cidade = cidade.BuscarPorId(Convert.ToInt32(dr["cidadeId"]));
                 c.OrgaoExpedidor = (string)dr["orgaoExpedidor"];
                 c.Numero = (string)dr["numero"];
-               // c.Uf = (Estado)dr["uf"];
+               
             }
             else
             {
@@ -102,12 +108,12 @@ namespace Negocio.DAO
                 c.Cpf = (string)dr["cpf"];
                 c.Endereco = (string)dr["endereco"];
                 c.DataNascimento = Convert.ToDateTime(dr["dtNascimento"]);
-                c._Sexo = (Sexo)dr["sexo"];
+                c._Sexo = (Sexo)Enum.Parse(typeof(Sexo), Convert.ToString(dr["sexo"]));
                 c.Rg = (string)dr["rg"];
                 c.Cidade = (Cidade)dr["cidade"];
                 c.OrgaoExpedidor = (string)dr["orgaoExpedidor"];
                 c.Numero = (string)dr["numero"];
-               // c.Uf = (Estado)dr["estado"];
+               
             }
             else
             {
@@ -130,18 +136,19 @@ namespace Negocio.DAO
             {
                 while (dr.Read())
                 {
+                    
                      Cliente c = new Cliente();
+                     CidadeDAO cidade = new CidadeDAO();
                      c.Id = (int)dr["clienteID"];
                      c.Nome = (string)dr["nome"];
                      c.Cpf = (string)dr["cpf"];
                      c.Endereco = (string)dr["endereco"];
                      c.DataNascimento = Convert.ToDateTime(dr["dtNascimento"]);
-                     c._Sexo = (Sexo)Enum.Parse(typeof(Sexo), dr["sexo"].ToString());
+                     c._Sexo = (Sexo)Enum.Parse(typeof(Sexo),Convert.ToString( dr["sexo"]));
                      c.Rg = (string)dr["rg"];
-                     c.Cidade = (Cidade)dr["nome"];
+                     c.Cidade = cidade.BuscarPorId(Convert.ToInt32(dr["cidadeId"]));
                      c.OrgaoExpedidor = (string)dr["orgaoExpedidor"];
                      c.Numero = (string)dr["numero"];
-                    // c.Uf = (Estado)Enum.Parse(typeof(Estado), dr["estado"].ToString());
                      listaDeClientes.Add(c);
                 }
             }

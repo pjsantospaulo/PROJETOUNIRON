@@ -17,7 +17,7 @@ namespace Apresentacao
         {
 
         }
-        #region
+        #region Metodos do Fornecedor
         public void Limpar()
         {
             txtCpf.Text = "";
@@ -39,10 +39,11 @@ namespace Apresentacao
         public void Alterar()
         {
             Fornecedor f = new Fornecedor();
-            FornecedorBO fBO = new FornecedorBO();
+            f.Id = Convert.ToInt32(hfId.Value);
             f.Cpf = txtCpf.Text;
             f.Nome = txtNome.Text;
             f.Endereco = txtEndereco.Text;
+            FornecedorBO fBO = new FornecedorBO();
             fBO.Gravar(f);
             
         }
@@ -76,6 +77,8 @@ namespace Apresentacao
             
         }
         #endregion
+
+        #region Botões
 
         protected void btnGravar_Click(object sender, EventArgs e)
         {
@@ -128,5 +131,6 @@ namespace Apresentacao
         {
             Alterar();
         }
+        #endregion
     }
 }

@@ -3,6 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="mpSegundaria" runat="server">
     <div>
         <div>
+            <asp:Label Text="" runat="server" ID="lblMsg" />
+            <br />
+            <asp:HiddenField ID="hfId" runat="server" />
+            <br />
             <asp:Label ID="Label1" runat="server" Text="CPF:"></asp:Label>
             <br />
             <asp:TextBox ID="txtCpf" runat="server"></asp:TextBox>
@@ -15,12 +19,12 @@
         <div>
             <asp:Label ID="Label3" runat="server" Text="Data de Nascimento:"></asp:Label>
             <br />
-            <asp:TextBox ID="txtDtNascimento" runat="server" type="date"></asp:TextBox>
+            <asp:TextBox ID="txtDtNascimento" runat="server" type="datetime" ></asp:TextBox>
         </div>
         <div>
              <asp:Label ID="Label10" runat="server" Text="Sexo"></asp:Label>
              <br />
-            <asp:DropDownList ID="dpdlSexo" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="dpdlSexo" runat="server" OnSelectedIndexChanged="dpdlSexo_SelectedIndexChanged"></asp:DropDownList>
         </div>
         <div>
            
@@ -62,29 +66,29 @@
         <asp:Panel ID="Panel1" runat="server">
             <div>
                 <asp:Button ID="btnGravar" runat="server" Text="Gravar" OnClick="btnGravar_Click" />
-                <asp:Button ID="btnAlterar" runat="server" Text="Alterar" />
-                <asp:Button ID="btnExcluir" runat="server" Text="Excluir" />
-                <asp:Button ID="btnNovo" runat="server" Text="Novo" />
+                <asp:Button ID="btnAlterar" runat="server" Text="Alterar" OnClick="btnAlterar_Click" />
+                <asp:Button ID="btnExcluir" runat="server" Text="Excluir" OnClick="btnExcluir_Click" />
+                <asp:Button ID="btnNovo" runat="server" Text="Novo" OnClick="btnNovo_Click" />
                 <br />
             </div>
             <div>
-                <asp:TextBox ID="txtLocalizar" runat="server"></asp:TextBox>
-                <asp:Button ID="btnBuscar" runat="server" Text="Buscar" />
+                <asp:TextBox ID="txtLocalizar" runat="server" ></asp:TextBox>
+                <asp:Button ID="btnBuscar" runat="server" Text="Buscar" OnClick="btnBuscar_Click" />
                 <br />
             </div>
             <div>
-                <asp:GridView ID="gvCliente" runat="server" AutoGenerateColumns="False">
+                <asp:GridView ID="gvCliente" runat="server" AutoGenerateColumns="False" DataKeyNames="id" OnSelectedIndexChanged="gvCliente_SelectedIndexChanged" OnPageIndexChanging="gvCliente_PageIndexChanging">
                     <Columns>
                         <asp:BoundField DataField="id" HeaderText="id" Visible="False" />
                         <asp:BoundField DataField="nome" HeaderText="Nome" />
                         <asp:BoundField DataField="cpf" HeaderText="CPF" />
                         <asp:BoundField DataField="endereco" HeaderText="Endereço" />
                         <asp:BoundField DataField="numero" HeaderText="Numero" />
-                        <asp:BoundField DataField="dataNascimento" HeaderText="Data de Nascimento" />
-                        <asp:BoundField DataField="sexo" HeaderText="Sexo" />
+                        <asp:BoundField DataField="dataNascimento" HeaderText="Data de Nascimento" DataFormatString="{0:yyyy-MM-dd}" />
+                        <asp:BoundField DataField="_Sexo" HeaderText="Sexo" />
                         <asp:BoundField DataField="rg" HeaderText="RG" />
                         <asp:BoundField DataField="orgaoExpedidor" HeaderText="Orgão Expedidor" />
-                        <asp:BoundField DataField="cidade" HeaderText="Cidade" />
+                        <asp:BoundField DataField="Cidade.Nome" HeaderText="Cidade" />
                         <asp:CommandField SelectText="Selecionar" ShowSelectButton="True" />
                     </Columns>
                 </asp:GridView>

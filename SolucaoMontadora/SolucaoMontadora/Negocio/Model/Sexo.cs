@@ -9,6 +9,6 @@ namespace Negocio.Model
     public enum Sexo
     {
         Masculino,
-        Feminino
+        Feminino 
     }
 }

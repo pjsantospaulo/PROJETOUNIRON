@@ -12,7 +12,6 @@ namespace Negocio.Model
         private DateTime dataFabricacao;
         private string numeroSerie;
         private string descricao;
-
         public string Descricao
         {
             get { return descricao; }

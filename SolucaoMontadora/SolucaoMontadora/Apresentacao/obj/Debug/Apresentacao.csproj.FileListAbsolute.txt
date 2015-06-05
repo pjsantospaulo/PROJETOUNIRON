@@ -14,3 +14,11 @@ D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Apresentaca
 D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Negocio.dll
 D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Negocio.pdb
 D:\Projeto\Uniron\SolucaoMontadora\SolucaoMontadora\Apresentacao\obj\Debug\Apresentacao.pdb
+D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Apresentacao.dll.config
+D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Apresentacao.dll
+D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Apresentacao.pdb
+D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Negocio.dll
+D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Apresentacao\bin\Negocio.pdb
+D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Apresentacao\obj\Debug\Apresentacao.dll
+D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Apresentacao\obj\Debug\Apresentacao.pdb

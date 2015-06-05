@@ -70,6 +70,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="wfPeca.aspx" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -85,6 +86,7 @@
     <Content Include="wfMontador.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\Helpers.cs" />
     <Compile Include="mpPrincipal.Master.cs">
       <DependentUpon>mpPrincipal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -127,6 +129,13 @@
     </Compile>
     <Compile Include="wfMontador.aspx.designer.cs">
       <DependentUpon>wfMontador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wfPeca.aspx.cs">
+      <DependentUpon>wfPeca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wfPeca.aspx.designer.cs">
+      <DependentUpon>wfPeca.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

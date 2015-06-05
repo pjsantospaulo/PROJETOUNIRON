@@ -52,11 +52,7 @@ namespace Negocio.Model
             get { return dataNascimento; }
             set { dataNascimento = value; }
         }
-        public void ClienteCidade(Cidade pCidade)
-        {
-            cidade = pCidade; 
-        }
-
+  
         public Cidade Cidade
         {
             get { return cidade; }

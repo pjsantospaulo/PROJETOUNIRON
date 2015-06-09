@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mpSegundaria.master" AutoEventWireup="true" CodeBehind="wfFornecedor.aspx.cs" Inherits="Apresentacao.wfFornecedor" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="mpSegundaria" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderSegundaria" runat="server">
 
     <div>
     <asp:Label ID="lblMsg" runat="server"></asp:Label>

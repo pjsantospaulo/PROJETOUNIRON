@@ -4,17 +4,27 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Montadora</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <script src="Scripts/jquery-2.1.4.js"></script>
+    <script src="Scripts/chosen.jquery.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="mpPrincipal" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-9">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolderPrincipal" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </div>
+            </div>
+        </div>
     </form>
 </body>
 </html>

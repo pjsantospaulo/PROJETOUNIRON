@@ -28,6 +28,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -61,8 +62,14 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\chosen-sprite%402x.png" />
+    <Content Include="Content\chosen-sprite.png" />
+    <Content Include="Content\chosen.css" />
+    <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Icon.png" />
+    <Content Include="mpPrincipal.Master" />
+    <Content Include="mpSegundaria.master" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -70,6 +77,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Scripts\chosen.jquery.js" />
+    <Content Include="Scripts\chosen.jquery.min.js" />
     <Content Include="wfPeca.aspx" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -82,10 +91,15 @@
     </Content>
     <Content Include="wfCliente.aspx" />
     <Content Include="wfFornecedor.aspx" />
-    <Content Include="wfLogin.aspx" />
-    <Content Include="wfMontador.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\Helpers.cs" />
     <Compile Include="mpPrincipal.Master.cs">
       <DependentUpon>mpPrincipal.Master</DependentUpon>
@@ -116,20 +130,6 @@
     <Compile Include="wfFornecedor.aspx.designer.cs">
       <DependentUpon>wfFornecedor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="wfLogin.aspx.cs">
-      <DependentUpon>wfLogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="wfLogin.aspx.designer.cs">
-      <DependentUpon>wfLogin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="wfMontador.aspx.cs">
-      <DependentUpon>wfMontador.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="wfMontador.aspx.designer.cs">
-      <DependentUpon>wfMontador.aspx</DependentUpon>
-    </Compile>
     <Compile Include="wfPeca.aspx.cs">
       <DependentUpon>wfPeca.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -139,8 +139,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="mpPrincipal.Master" />
-    <Content Include="mpSegundaria.master" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

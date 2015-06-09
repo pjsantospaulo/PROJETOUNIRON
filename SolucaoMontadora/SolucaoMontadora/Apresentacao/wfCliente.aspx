@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mpSegundaria.master" AutoEventWireup="true" CodeBehind="wfCliente.aspx.cs" Inherits="Apresentacao.wfCliente" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="mpSegundaria" runat="server">
-    <div>
-        <div>
-            <asp:Label Text="" runat="server" ID="lblMsg" />
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderSegundaria" runat="server">
+    <div class="form-c">
+        <div class=" form-control">
+            <asp:Label Text="" runat="server" ID="lblMsg"  />
             <br />
             <asp:HiddenField ID="hfId" runat="server" />
             <br />
@@ -41,7 +41,7 @@
         <div>
             <asp:Label ID="Label9" runat="server" Text="UF"></asp:Label>
             <br />
-            <asp:DropDownList ID="dpdlUf" runat="server" OnSelectedIndexChanged="dpdlUf_SelectedIndexChanged" AutoPostBack="True">
+            <asp:DropDownList ID="dpdlUf" runat="server"  CssClass="chosen-select" OnSelectedIndexChanged="dpdlUf_SelectedIndexChanged" AutoPostBack="True">
             </asp:DropDownList>
         </div>
         <div>

@@ -45,9 +45,12 @@
     <Compile Include="DAO\Conexao.cs" />
     <Compile Include="DAO\PacienteDAO.cs" />
     <Compile Include="Model\Atendente.cs" />
+    <Compile Include="Model\Atendimento.cs" />
     <Compile Include="Model\Convenio.cs" />
+    <Compile Include="Model\ItemAtendimento.cs" />
     <Compile Include="Model\Paciente.cs" />
     <Compile Include="Model\PlanoDeSaude.cs" />
+    <Compile Include="Model\Servico.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

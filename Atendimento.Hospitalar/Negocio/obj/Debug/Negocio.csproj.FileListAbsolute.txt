@@ -8,3 +8,8 @@ D:\Projeto\Uniron\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio
 D:\Projeto\Uniron\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.pdb
 D:\Projeto\Uniron\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\bin\Debug\Negocio.dll
 D:\Projeto\Uniron\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\bin\Debug\Negocio.pdb
+C:\Users\83025308249\Projetos\Uniron\PROJETOUNIRON\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\bin\Debug\Negocio.dll
+C:\Users\83025308249\Projetos\Uniron\PROJETOUNIRON\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\bin\Debug\Negocio.pdb
+C:\Users\83025308249\Projetos\Uniron\PROJETOUNIRON\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\83025308249\Projetos\Uniron\PROJETOUNIRON\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.dll
+C:\Users\83025308249\Projetos\Uniron\PROJETOUNIRON\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.pdb

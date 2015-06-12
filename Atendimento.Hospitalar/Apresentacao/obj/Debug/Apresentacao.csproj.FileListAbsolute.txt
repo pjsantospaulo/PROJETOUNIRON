@@ -4,3 +4,9 @@ c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\
 c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
 c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Apresentacao\obj\Debug\Apresentacao.dll
 c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\83025308249\Projetos\Uniron\PROJETOUNIRON\PROJETOUNIRON\Atendimento.Hospitalar\Apresentacao\bin\Apresentacao.dll.config
+C:\Users\83025308249\Projetos\Uniron\PROJETOUNIRON\PROJETOUNIRON\Atendimento.Hospitalar\Apresentacao\bin\Apresentacao.dll
+C:\Users\83025308249\Projetos\Uniron\PROJETOUNIRON\PROJETOUNIRON\Atendimento.Hospitalar\Apresentacao\bin\Apresentacao.pdb
+C:\Users\83025308249\Projetos\Uniron\PROJETOUNIRON\PROJETOUNIRON\Atendimento.Hospitalar\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\83025308249\Projetos\Uniron\PROJETOUNIRON\PROJETOUNIRON\Atendimento.Hospitalar\Apresentacao\obj\Debug\Apresentacao.dll
+C:\Users\83025308249\Projetos\Uniron\PROJETOUNIRON\PROJETOUNIRON\Atendimento.Hospitalar\Apresentacao\obj\Debug\Apresentacao.pdb

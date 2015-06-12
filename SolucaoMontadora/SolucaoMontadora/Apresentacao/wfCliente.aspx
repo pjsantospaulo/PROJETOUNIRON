@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderSegundaria" runat="server">
     <div class="form-c">
         <div class=" form-control">
-            <asp:Label Text="" runat="server" ID="lblMsg"  />
+            <asp:Label Text="" runat="server" ID="lblMsg" />
             <br />
             <asp:HiddenField ID="hfId" runat="server" />
             <br />
@@ -19,15 +19,15 @@
         <div>
             <asp:Label ID="Label3" runat="server" Text="Data de Nascimento:"></asp:Label>
             <br />
-            <asp:TextBox ID="txtDtNascimento" runat="server" type="datetime" ></asp:TextBox>
+            <asp:TextBox ID="txtDtNascimento" runat="server" type="datetime"></asp:TextBox>
         </div>
         <div>
-             <asp:Label ID="Label10" runat="server" Text="Sexo"></asp:Label>
-             <br />
+            <asp:Label ID="Label10" runat="server" Text="Sexo"></asp:Label>
+            <br />
             <asp:DropDownList ID="dpdlSexo" runat="server" OnSelectedIndexChanged="dpdlSexo_SelectedIndexChanged"></asp:DropDownList>
         </div>
         <div>
-           
+
             <asp:Label ID="Label4" runat="server" Text="Endereço"></asp:Label>
             <br />
             <asp:TextBox ID="txtEndereco" runat="server" Height="22px"></asp:TextBox>
@@ -41,14 +41,16 @@
         <div>
             <asp:Label ID="Label9" runat="server" Text="UF"></asp:Label>
             <br />
-            <asp:DropDownList ID="dpdlUf" runat="server"  CssClass="chosen-select" OnSelectedIndexChanged="dpdlUf_SelectedIndexChanged" AutoPostBack="True">
+            <asp:DropDownList ID="dpdlUf" runat="server" OnSelectedIndexChanged="dpdlUf_SelectedIndexChanged" AutoPostBack="True">
             </asp:DropDownList>
         </div>
         <div>
             <asp:Label ID="Label8" runat="server" Text="Cidade"></asp:Label>
             <br />
-            <asp:DropDownList ID="dpdlCidade" runat="server" Height="22px" Width="210px">
-            </asp:DropDownList>
+            
+                <asp:DropDownList ID="dpdlCidade" CssClass="dropdown-toggle chosen-select" runat="server" Height="22px" Width="210px">
+                </asp:DropDownList>
+          
         </div>
         <div>
             <asp:Label ID="Label5" runat="server" Text="RG:"></asp:Label>
@@ -72,7 +74,7 @@
                 <br />
             </div>
             <div>
-                <asp:TextBox ID="txtLocalizar" runat="server" ></asp:TextBox>
+                <asp:TextBox ID="txtLocalizar" runat="server"></asp:TextBox>
                 <asp:Button ID="btnBuscar" runat="server" Text="Buscar" OnClick="btnBuscar_Click" />
                 <br />
             </div>

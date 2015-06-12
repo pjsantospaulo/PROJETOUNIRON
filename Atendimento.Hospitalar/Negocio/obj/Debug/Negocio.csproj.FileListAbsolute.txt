@@ -3,3 +3,8 @@ c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\
 c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.dll
 c:\users\lordcyber\documents\visual studio 2013\Projects\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.pdb
+D:\Projeto\Uniron\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\Projeto\Uniron\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.dll
+D:\Projeto\Uniron\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\obj\Debug\Negocio.pdb
+D:\Projeto\Uniron\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\bin\Debug\Negocio.dll
+D:\Projeto\Uniron\PROJETOUNIRON\Atendimento.Hospitalar\Negocio\bin\Debug\Negocio.pdb

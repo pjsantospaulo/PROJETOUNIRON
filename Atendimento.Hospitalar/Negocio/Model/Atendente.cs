@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace Negocio.Model
 {
-    class Atendente
+    public class Atendente
     {
-        int atendenteId;
+       private int atendenteId;
 
 
         public int AtendenteId
         {
             get { return atendenteId; }
             set { atendenteId = value; }
-        }string nome;
+        }
+        string nome;
 
         public string Nome
         {

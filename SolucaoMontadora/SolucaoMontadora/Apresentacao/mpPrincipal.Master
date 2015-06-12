@@ -12,7 +12,8 @@
     <script src="Scripts/bootstrap.js"></script>
     <link href="Content/bootstrap-theme.css" rel="stylesheet" />
     <link href="Content/bootstrap.css" rel="stylesheet" />
-
+    <script src="Scripts/Utils.js"></script>
+    <script src="Scripts/chosen.proto.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">

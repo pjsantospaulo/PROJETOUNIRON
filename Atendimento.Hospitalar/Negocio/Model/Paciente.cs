@@ -8,14 +8,14 @@ namespace Negocio.Model
 {
     public class Paciente
     {
-        int pacienteID;
+        private int pacienteID;
 
         public int PacienteID
         {
             get { return pacienteID; }
             set { pacienteID = value; }
         }
-        string nome;
+        private string nome;
 
         public string Nome
         {
@@ -29,13 +29,17 @@ namespace Negocio.Model
             get { return dtNascimento; }
             set { dtNascimento = value; }
         }
-        int tipoConvenio;
+        private TipoConveniado tipoConveniado;
 
-        public int TipoConvenio
+        public TipoConveniado TipoConveniado
         {
-            get { return tipoConvenio; }
-            set { tipoConvenio = value; }
+            get { return tipoConveniado; }
+            set { tipoConveniado = value; }
         }
+
+       
+
+
         PlanoDeSaude objPlanoSaude;
 
         public PlanoDeSaude ObjPlanoSaude

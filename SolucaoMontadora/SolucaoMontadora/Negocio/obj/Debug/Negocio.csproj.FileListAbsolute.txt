@@ -12,4 +12,3 @@ D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Negocio\bin\De
 D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Negocio\bin\Debug\Negocio.pdb
 D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Negocio\obj\Debug\Negocio.dll
 D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Negocio\obj\Debug\Negocio.pdb
-D:\Projeto\Uniron\PROJETOUNIRON\SolucaoMontadora\SolucaoMontadora\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
